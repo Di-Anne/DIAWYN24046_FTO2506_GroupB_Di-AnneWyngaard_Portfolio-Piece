@@ -16,6 +16,17 @@ body {
 header {
     height: 300px;
 }
+
+.profile-info-wrapper, .proficiency-container, .skills-container, .projects-container, .education-container {
+    border-radius: 24px;
+    background: #fff;
+}
+
+.proficiency-heading, .skills-heading, .projects-heading, .education-heading {
+    font-size: 33.8px;
+    font-weight: 500;
+}
+
 /*Profile section*/
 .profile-container {
     width: 1321px;
@@ -34,8 +45,6 @@ header {
 }
 
 .profile-info-wrapper {
-    background: #fff;
-    border-radius: 24px;
     width: 994px;
     height: 300px;
 }
@@ -62,18 +71,10 @@ header {
 
 /*profiency section*/
  .proficiency-container{
-    border: 2px #fff solid;
-    border-radius: 24px;
-    background: #fff;
     width: 563px;
     height: 428px;
     font-size: 24px;
     padding: 0.5em 0.5em;
-}
-
-.proficiency-heading, .skills-heading, .projects-heading {
-    font-size: 33.8px;
-    font-weight: 500;
 }
 
 .proficiency-subheading-container {
@@ -125,9 +126,6 @@ header {
 
 /*Skills section*/
 .skills-container {
-    /*border: 2px solid black;*/
-    border-radius: 24px;
-    background: #fff;
     padding: 0.5em 0.5em;
     width: 706px;
     height: 450px;
@@ -149,14 +147,10 @@ header {
 
 /*projects section*/
 .projects-container {
-    border-radius: 24px;
-    background: #fff;
     width: 1320px;
     height: 735px;
     font-size: 18px;   
 }
-
-
 .projects-heading {
     text-align: center;
     padding: 0.8em;
@@ -176,9 +170,10 @@ header {
 
 .green {
     background: #4A8B70;
+    color: #fff;
 }
 
-.projects-subheading, .projects-year {
+.projects-subheading, .projects-year, .education-subheading {
     font-size: 24px;
     font-weight: 500;
 }
@@ -195,5 +190,25 @@ header {
 }
 
 
+/* Education section*/
+.education-container {
+    /*display: flex;
+    flex-direction: column; 
+    justify-content: space-between; */
+    width: 994px;
+    font-size: 18px;
+}
 
+.education-row {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 24px;
+}
 
+.education-info {
+    width: 267px;
+}
+
+.education-details {
+    width: 578px;
+}
