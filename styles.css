@@ -71,7 +71,7 @@ header {
     padding: 0.5em 0.5em;
 }
 
-.proficiency-heading, .skills-heading {
+.proficiency-heading, .skills-heading, .projects-heading {
     font-size: 33.8px;
     font-weight: 500;
 }
@@ -145,4 +145,30 @@ header {
     padding: 8px 14px;
     border-radius: 30px;
     font-size: 22px;  
+}
+
+/*projects section*/
+.projects-container {
+    border-radius: 24px;
+    background: #fff;
+    width: 1318px;
+    height: 755px;
+    
+}
+
+.projects-heading {
+    text-align: center;
+}
+
+.projects-col-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+.projects-col {
+    border: 1px solid black;
+    border-radius: 29px;
+    width: 285px;
+    height: 581;
+    font-size: 19px;
+    background: #E7F0EC;
 }
