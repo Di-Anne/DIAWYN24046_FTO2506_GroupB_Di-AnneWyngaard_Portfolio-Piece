@@ -160,12 +160,15 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
-.projects-col {
+.projects-col, .education-row {
     border-radius: 29px;
     padding: 1em;
+    background: #E7F0EC;
+}
+
+.projects-col {
     width: 260px;
     height: 600;
-    background: #E7F0EC;
 }
 
 .green {
@@ -192,10 +195,11 @@ header {
 
 /* Education section*/
 .education-container {
-    /*display: flex;
+    display: flex;
     flex-direction: column; 
-    justify-content: space-between; */
+    gap: 20px;
     width: 994px;
+    padding: 0.8em;
     font-size: 18px;
 }
 
@@ -203,6 +207,9 @@ header {
     display: flex;
     justify-content: space-around;
     border-radius: 24px;
+    width: 960px;
+    height: 210px;
+
 }
 
 .education-info {
@@ -211,4 +218,5 @@ header {
 
 .education-details {
     width: 578px;
+    height: 210px;
 }
