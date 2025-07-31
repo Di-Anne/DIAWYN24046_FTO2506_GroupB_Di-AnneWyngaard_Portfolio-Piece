@@ -225,7 +225,7 @@ header {
 /*Tools*/
 .tools-container {
     width: 300px;
-    height: 847px;
+    height: 700px;
     position: relative;
 }
 
@@ -235,9 +235,9 @@ header {
 
 .tools-col {
     width: 184px;
-    height: 682px;
+    height: 600px;
     border-radius: 14px;
-    margin: 0 auto;
+    margin: 25px auto;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -254,7 +254,7 @@ header {
     align-items: center;  
 }
 
-.tools-label {
+.tools-label-lang, .tools-label-des, .tools-label-soft {
     font-size: 12px;
     width: 70px;
     padding: 0.5em 1em;
@@ -263,8 +263,23 @@ header {
     color: #fff;
     text-align: center;
     font-weight: 500;
-   
+    position: absolute;
 }
+
+.tools-label-lang {
+    right: 100px;
+}
+
+.tools-label-des {
+    right: 100px;
+    top: 290px;
+}
+
+.tools-label-soft {
+    right: 100px;
+    top: 490px;
+}
+
 
 
 /*Experience*/
