@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -63,6 +67,8 @@ header {
     width: 563px;
     height: 428px;
     font-size: 24px;
+    padding: 0.5em 0.5em;
+    margin-top: 1em;
 }
 
 .proficiency-heading {
@@ -70,7 +76,48 @@ header {
 }
 
 .proficiency-subheading-container {
-    border: 2px solid black;
     display: flex;
     justify-content: space-evenly;
+}
+
+.prof-details {
+    display: flex;
+    justify-content: space-between;
+    line-height: 104%;
+}
+
+.prof-right {
+ width: 321px;
+ height: 179px;
+}
+
+.hidden-text {
+    color: transparent;
+}
+
+.prof-left{
+    width: 141px;
+    height: 169px;
+}
+.prof-j, .prof-r, .prof-n, .prof-h {
+    background: #4A8B70;
+    border-radius: 7.26px;
+} 
+.prof-j {
+    width: 317px;
+    height: 26px;
+}
+
+.prof-r {
+    width: 232px;
+    height: 26px;
+}
+.prof-n {
+    width: 113px;
+    height: 26px;
+}
+
+.prof-h {
+    width: 183px;
+    height: 26px;
 }
