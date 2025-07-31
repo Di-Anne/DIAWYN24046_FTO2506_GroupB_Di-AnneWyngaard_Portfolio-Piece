@@ -151,10 +151,11 @@ header {
 .projects-container {
     border-radius: 24px;
     background: #fff;
-    width: 1318px;
-    height: 755px;
-    
+    width: 1320px;
+    height: 735px;
+    font-size: 18px;   
 }
+
 
 .projects-heading {
     text-align: center;
@@ -166,10 +167,33 @@ header {
     justify-content: space-evenly;
 }
 .projects-col {
-    border: 1px solid black;
     border-radius: 29px;
-    width: 285px;
-    height: 581;
-    font-size: 19px;
+    padding: 1em;
+    width: 260px;
+    height: 600;
     background: #E7F0EC;
 }
+
+.green {
+    background: #4A8B70;
+}
+
+.projects-subheading, .projects-year {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.projects-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+}
+
+.projects-icon {
+    color: #DB8566;
+}
+
+
+
+
