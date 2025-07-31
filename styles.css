@@ -227,6 +227,11 @@ header {
     width: 300px;
     height: 847px;
 }
+.tools-col {
+    width: 184px;
+    height: 200px; 
+    background: #E7F0EC;
+}
 
 
 /*Experience*/
@@ -272,6 +277,7 @@ header {
     width: 1310px;
     padding: 0.8em;
 }
+
 a {
     text-decoration: none;
     color: inherit;
