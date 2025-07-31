@@ -226,11 +226,44 @@ header {
 .tools-container {
     width: 300px;
     height: 847px;
+    position: relative;
 }
+
+.tools-heading {
+    text-align: center;
+}
+
 .tools-col {
     width: 184px;
-    height: 200px; 
+    height: 682px;
+    border-radius: 14px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+.tools-col-lang, .tools-col-desig, .tools-col-software {
+    border-radius: 14px;
     background: #E7F0EC;
+    padding: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;  
+}
+
+.tools-label {
+    font-size: 12px;
+    width: 70px;
+    padding: 0.5em 1em;
+    border-radius: 142px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+   
 }
 
 
