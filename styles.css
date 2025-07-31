@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    font-size: 22px;
     background-image: url(background-img.png);
     background-size: contain;
     line-height: 1.5em;
@@ -9,21 +9,27 @@ body {
 
 /*Typography*/
 
-h1 {
- font-size: 22px;
- font-weight: 400;
-}
-
 .profile-name {
     font-weight: 600;
     font-size: 36px;
 }
+.project-details {
+    color: #5C5C5C;
+    line-height: 151%;
+}
 
 
 /*Layout*/
+.maint-container-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
 .profile-container {
     border: 2px solid black;
     width: 1321px;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
@@ -50,6 +56,9 @@ h1 {
 .profile-info {
     border: 2px solid black;
     width: 856px;
-    height: 180px;
     margin: auto;
+}
+
+.proficiency-container {
+    background-color: #fff;
 }
