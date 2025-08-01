@@ -399,9 +399,23 @@ a {
     .wrapper-flex {
         flex-direction: column;
     }
-    .tools-container {
+
+     .experience-container, .education-container, .contact-wrapper, .tools-container {
         box-sizing: border-box;
+        border-radius: 12px;
         width: 325px;
+        font-size: 8px;
+    }
+    .education-container {
+        box-sizing: border-box;
+        height: 530px;
+    }
+
+    .education-row {
+        margin-bottom: 0.5em;
+    }
+
+    .tools-container {
         height: 170px;
         padding-left: 0.5em;
     }
@@ -414,8 +428,8 @@ a {
         justify-content: flex-start;
         gap: 30px;
     }
-    .tools-heading {
-        font-size: 12px;
+    .tools-heading, .education-heading, .experience-heading, .contact-heading {
+        font-size: 14px;
     }
     .tools-col-lang, .tools-col-desig, .tools-col-software {
         box-sizing: border-box;
@@ -463,22 +477,21 @@ a {
 
     .experience-container {
         box-sizing: border-box;
-        width: 325px;
         height: 490px;
-        font-size: 8px;
+     }
+    
+   .experience-details, .education-details {
+        overflow: hidden;
     }
-    .experience-heading, .contact-heading {
-        font-size: 14px;
-    }
-    .experience-row {
+
+    .experience-row, .education-row {
         box-sizing: border-box;
         border-radius: 10px;
         padding: 1em;;
         width: 300px;
         height: 122px;
-        overflow: hidden;
     }
-    .experience-subheading, .contact-details {
+    .experience-subheading, .contact-details, .education-subheading {
         font-size: 10px;
     }
     .experience-info, .experience-details, .most-recent {
@@ -500,9 +513,6 @@ a {
     }
 
     .contact-wrapper {
-        box-sizing: border-box;
-        border-radius: 12px;
-        width: 325px;
         height: 96px;
     }
     .contact-heading {
@@ -515,7 +525,3 @@ a {
 }
 
 
-contact-wrapper {
-   
-    padding: 0.8em;
-}
