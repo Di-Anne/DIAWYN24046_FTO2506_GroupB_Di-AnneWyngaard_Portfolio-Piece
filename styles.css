@@ -233,27 +233,6 @@ header {
     text-align: center;
 }
 
-.tools-col {
-    width: 184px;
-    height: 600px;
-    border-radius: 14px;
-    margin: 25px auto;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    
-}
-
-.tools-col-lang, .tools-col-desig, .tools-col-software {
-    border-radius: 14px;
-    background: #E7F0EC;
-    padding: 1.5em;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-items: center;  
-}
-
 .tools-label-lang, .tools-label-des, .tools-label-soft {
     font-size: 12px;
     width: 70px;
@@ -280,6 +259,25 @@ header {
     top: 490px;
 }
 
+.tools-col {
+    width: 184px;
+    height: 600px;
+    border-radius: 14px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.tools-col-lang, .tools-col-desig, .tools-col-software {
+    border-radius: 14px;
+    background: #E7F0EC;
+    padding: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;  
+}
 
 
 /*Experience*/
@@ -288,7 +286,6 @@ header {
     background: #D76239;
 }
    
-
 .experience-container {
     display: flex;
     flex-direction: column; 
@@ -296,7 +293,6 @@ header {
     width: 1310px;
     padding: 0.8em;
     font-size: 18px;
-   
 }
 
 .experience-row {
