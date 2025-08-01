@@ -18,7 +18,7 @@ header {
 }
 
 .proficiency-heading, .skills-heading, .projects-heading, .education-heading, .contact-heading, .experience-heading, .tools-heading {
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 0;
     font-size: 33.8px;
     font-weight: 500;
@@ -26,9 +26,9 @@ header {
 
 .wrapper-flex {
     width: 1320px;
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
-    gap: 25px;
+    gap: 40px;
 }
 
 /************ Profile section ***************/
@@ -69,7 +69,7 @@ header {
 }
 
 .profile-info {
-    width: 856px;
+    width: 90%;
     height: 132px;
     margin: 0 auto;
 }
@@ -157,7 +157,7 @@ header {
 /*************** projects section *****************/
 .projects-container {
     box-sizing: border-box;
-    margin-top: 25px;
+    margin-top: 40px;
     width: 1318px;
     height: 755px;
     font-size: 18px;   
@@ -319,8 +319,8 @@ header {
 }
    
 .experience-container {
-    margin-top: 25px;
     box-sizing: border-box;
+    margin-top: 40px;
     display: flex;
     flex-direction: column; 
     gap: 20px;
@@ -329,6 +329,7 @@ header {
     padding: 0.8em;
     font-size: 18px;
 }
+
 .experience-heading {
     margin-bottom: 0;
 }
@@ -362,7 +363,7 @@ header {
 /*Footer*/
 .contact-wrapper {
     box-sizing: border-box;
-    margin-top: 25px;
+    margin-top: 40px;
     border-radius: 29px;
     width: 1310px;
     height: 158px;
