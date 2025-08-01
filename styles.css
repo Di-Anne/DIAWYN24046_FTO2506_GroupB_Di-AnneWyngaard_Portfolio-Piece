@@ -17,13 +17,13 @@ header {
 }
 
 .proficiency-heading, .skills-heading, .projects-heading, .education-heading, .contact-heading, .experience-heading, .tools-heading {
-    margin-top: 0;
     margin-bottom: 0;
     font-size: 33.8px;
     font-weight: 500;
 }
 
 .wrapper-flex {
+    width: 1318px;
     margin-top: 20px;
     display: flex;
     gap: 25px;
@@ -48,7 +48,7 @@ header {
 }
 
 .profile-info-wrapper {
-    width: 994px;
+    width: 990px;
     height: 300px;
 }
 
@@ -133,7 +133,7 @@ header {
 /************** Skills section **********/
 .skills-container {
     box-sizing: border-box;
-    padding: 1em 0.5em;
+    padding: 1em 0.8em;
     width: 706px;
     height: 435px;
 }
@@ -148,7 +148,7 @@ header {
     background: #ECF4F1;
     padding: 8px 14px;
     border-radius: 30px;
-    font-size: 22px;  
+    font-size: 20px;  
 }
 
 
@@ -209,9 +209,10 @@ header {
     flex-direction: column; 
     gap: 30px;
     width: 994px;
-    height: 847px;
+    height: 840px;
     padding: 0.8em;
     font-size: 18px;
+    line-height: 150%;
 }
 
 .education-row {
@@ -221,7 +222,7 @@ header {
     justify-content: space-evenly;
     border-radius: 29px;
     width: 936px;
-    height: 229px;
+    height: 200px;
 }
 
 .education-info {
@@ -238,13 +239,13 @@ header {
 .tools-container {
     box-sizing: border-box;
     width: 300px;
-    height: 847px;
+    height: 840px;
     position: relative;
 }
 
 .tools-heading {
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .tools-label-lang, .tools-label-des, .tools-label-soft {
@@ -260,17 +261,18 @@ header {
 }
 
 .tools-label-lang {
-    right: 100px;
+    right: 105px;
+    top: 60px;
 }
 
 .tools-label-des {
-    right: 100px;
-    top: 290px;
+    right: 105px;
+    top: 360px;
 }
 
 .tools-label-soft {
-    right: 100px;
-    top: 490px;
+    right: 105px;
+    top: 565px;
 }
 
 .tools-col {
@@ -315,23 +317,30 @@ header {
 }
    
 .experience-container {
+    margin-top: 25px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column; 
     gap: 30px;
-    width: 1310px;
+    width: 1300px;
+    height: 640px;
     padding: 0.8em;
     font-size: 18px;
 }
 
 .experience-row {
+    box-sizing: border-box;
+    width: 1260px;
+    height: 145px;
     border-radius: 29px;
     display: flex;
     justify-content: space-between;
 }
-
+.experience-info {
+    font-size: 18px;;
+}
 .experience-details {
     width: 700px;
-    font-size: 14px;
 }
 
 .most-recent {
@@ -346,6 +355,8 @@ header {
 
 /*Footer*/
 .contact-wrapper {
+    box-sizing: border-box;
+    margin-top: 25px;
     border-radius: 29px;
     width: 1310px;
     padding: 0.8em;
