@@ -75,7 +75,7 @@ header {
 }
 
 
-/************* profiency section ************/
+/************* Profiency section ************/
  .proficiency-container{
     box-sizing: border-box;
     width: 573px;
@@ -154,7 +154,7 @@ header {
 }
 
 
-/*************** projects section *****************/
+/*************** Projects section *****************/
 .projects-container {
     box-sizing: border-box;
     margin-top: 40px;
@@ -212,7 +212,7 @@ header {
     gap: 30px;
     width: 994px;
     height: 840px;
-    padding: 0.8em;
+    padding: 0.8em 1em;
     font-size: 18px;
     line-height: 150%;
 }
@@ -231,13 +231,18 @@ header {
     width: 267px;
 }
 
+.education-info > * {
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
 .education-details {
     width: 578px;
     height: 210px;
 }
 
 
-/************* Tools ****************/
+/************* Tools section****************/
 .tools-container {
     box-sizing: border-box;
     width: 300px;
@@ -312,7 +317,8 @@ header {
     height: 210px;
 }
 
-/************ Experience *************/
+
+/************ Experience section *************/
 .contact-wrapper, .most-recent {
     color: #fff;
     background: #D76239;
@@ -324,30 +330,40 @@ header {
     display: flex;
     flex-direction: column; 
     gap: 20px;
-    width: 1315px;
-    height: 660px;
-    padding: 0.8em;
+    width: 1316px;
+    height: 645px;
+    padding: 0.8em 1em;
     font-size: 18px;
-}
-
-.experience-heading {
-    margin-bottom: 0;
 }
 
 .experience-row {
     box-sizing: border-box;
     width: 1260px;
-    height: 175px;
+    height: 150px;
     padding: 1em 0.8em;
     border-radius: 29px;
     display: flex;
     justify-content: space-between;
 }
+
+/****left-hand side****/
 .experience-info {
     font-size: 18px;
 }
+
+.experience-info > * {
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+/****Right-hand side****/
 .experience-details {
     width: 700px;
+}
+
+ul li {
+    border: 2px solid black;
+    line-height: 150%;
 }
 
 .most-recent {
@@ -360,7 +376,7 @@ header {
     height: 32px;
 }
 
-/*Footer*/
+/********** Contact section **********/
 .contact-wrapper {
     box-sizing: border-box;
     margin-top: 40px;
