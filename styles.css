@@ -467,7 +467,7 @@ a {
         height: 490px;
         font-size: 8px;
     }
-    .experience-heading {
+    .experience-heading, .contact-heading {
         font-size: 14px;
     }
     .experience-row {
@@ -478,7 +478,7 @@ a {
         height: 122px;
         overflow: hidden;
     }
-    .experience-subheading {
+    .experience-subheading, .contact-details {
         font-size: 10px;
     }
     .experience-info, .experience-details, .most-recent {
@@ -486,13 +486,12 @@ a {
     }
     .experience-info {
         box-sizing: border-box;
-        width: 200px;
+        width: 190px;
     }
     .experience-details {
         box-sizing: border-box;
-        width: 230px;
+        width: 250px;
     }
-
     .most-recent {
         box-sizing: border-box;
         width: 100px;
@@ -500,6 +499,23 @@ a {
         border-radius: 59px;  
     }
 
+    .contact-wrapper {
+        box-sizing: border-box;
+        border-radius: 12px;
+        width: 325px;
+        height: 96px;
+    }
+    .contact-heading {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .contact-details {
+        margin-top: 0;
+    }
 }
 
 
+contact-wrapper {
+   
+    padding: 0.8em;
+}
