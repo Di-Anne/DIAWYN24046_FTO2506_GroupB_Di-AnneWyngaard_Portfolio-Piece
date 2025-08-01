@@ -236,13 +236,15 @@ header {
 
 /************* Tools ****************/
 .tools-container {
+    box-sizing: border-box;
     width: 300px;
-    height: 700px;
+    height: 847px;
     position: relative;
 }
 
 .tools-heading {
     text-align: center;
+    margin: 20px 0;
 }
 
 .tools-label-lang, .tools-label-des, .tools-label-soft {
@@ -273,7 +275,7 @@ header {
 
 .tools-col {
     width: 184px;
-    height: 600px;
+    height: 690px;
     border-radius: 14px;
     margin: 25px auto;
     display: flex;
@@ -290,7 +292,21 @@ header {
     justify-items: center;
     align-items: center;  
 }
-
+.tools-col-lang {
+    box-sizing: border-box;
+    width: 183px;
+    height: 273px;
+}
+.tools-col-desig {
+    box-sizing: border-box;
+    width: 184px;
+    height: 152px;
+}
+.tools-col-software {
+    box-sizing: border-box;
+    width: 183px;
+    height: 210px;
+}
 
 /************ Experience *************/
 .contact-wrapper, .most-recent {
