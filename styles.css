@@ -1,7 +1,3 @@
-html {
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -27,11 +23,18 @@ header {
     font-weight: 500;
 }
 
+.wrapper-flex {
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+}
+
 /************ Profile section ***************/
 .profile-container {
+    box-sizing: border-box;
+    margin-top: 25px;
     width: 1321px;
-    height: 300px;
-    margin: 50px auto; 
+    height: 300px; 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 25px;
@@ -72,10 +75,11 @@ header {
 
 /************* profiency section ************/
  .proficiency-container{
+    box-sizing: border-box;
     width: 563px;
-    height: 428px;
+    height: 429px;
     font-size: 24px;
-    padding: 0.5em 0.5em;
+    padding: 1em 0.5em;
 }
 
 .proficiency-subheading-container {
@@ -128,9 +132,10 @@ header {
 
 /************** Skills section **********/
 .skills-container {
-    padding: 0.5em 0.5em;
+    box-sizing: border-box;
+    padding: 1em 0.5em;
     width: 706px;
-    height: 450px;
+    height: 435px;
 }
 
 .skills-info {
@@ -149,8 +154,10 @@ header {
 
 /*************** projects section *****************/
 .projects-container {
-    width: 1320px;
-    height: 735px;
+    box-sizing: border-box;
+    margin-top: 25px;
+    width: 1318px;
+    height: 755px;
     font-size: 18px;   
 }
 .projects-heading {
@@ -197,20 +204,24 @@ header {
 
 /************ Education section *************/
 .education-container {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column; 
     gap: 30px;
     width: 994px;
+    height: 847px;
     padding: 0.8em;
     font-size: 18px;
 }
 
 .education-row {
+    box-sizing: border-box;
+    margin-top: 2px;
     display: flex;
     justify-content: space-evenly;
     border-radius: 29px;
-    width: 960px;
-    height: 210px;
+    width: 936px;
+    height: 229px;
 }
 
 .education-info {
@@ -327,4 +338,8 @@ header {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+@media {
+
 }
