@@ -31,6 +31,10 @@ header {
     gap: 40px;
 }
 
+ul li {
+    line-height: 150%;
+}
+
 /************ Profile section ***************/
 .profile-container {
     box-sizing: border-box;
@@ -340,7 +344,6 @@ header {
     box-sizing: border-box;
     width: 1260px;
     height: 150px;
-    padding: 1em 0.8em;
     border-radius: 29px;
     display: flex;
     justify-content: space-between;
@@ -361,11 +364,6 @@ header {
     width: 700px;
 }
 
-ul li {
-    border: 2px solid black;
-    line-height: 150%;
-}
-
 .most-recent {
     text-align: center;
     font-size: 14px;
@@ -375,6 +373,7 @@ ul li {
     width: 123px;
     height: 32px;
 }
+
 
 /********** Contact section **********/
 .contact-wrapper {
