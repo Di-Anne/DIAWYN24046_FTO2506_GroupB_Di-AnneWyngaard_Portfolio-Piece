@@ -427,6 +427,7 @@ a {
         height: 17px;
     }
     .tools-col-desig > img {
+        display: inline-block;
         width: 17px;
         height: 17px;
     }
@@ -459,6 +460,46 @@ a {
         right: 35px;
         top: 40px;
     }
+
+    .experience-container {
+        box-sizing: border-box;
+        width: 325px;
+        height: 490px;
+        font-size: 8px;
+    }
+    .experience-heading {
+        font-size: 14px;
+    }
+    .experience-row {
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 1em;;
+        width: 300px;
+        height: 122px;
+        overflow: hidden;
+    }
+    .experience-subheading {
+        font-size: 10px;
+    }
+    .experience-info, .experience-details, .most-recent {
+        font-size: 8px;
+    }
+    .experience-info {
+        box-sizing: border-box;
+        width: 200px;
+    }
+    .experience-details {
+        box-sizing: border-box;
+        width: 230px;
+    }
+
+    .most-recent {
+        box-sizing: border-box;
+        width: 100px;
+        height: 16px;
+        border-radius: 59px;  
+    }
+
 }
 
 
