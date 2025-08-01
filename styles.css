@@ -8,6 +8,8 @@ body {
     box-sizing: border-box;
 }
 
+
+/********* Common styling ***********/
 header {
     height: 300px;
 }
@@ -34,6 +36,7 @@ header {
 ul li {
     line-height: 150%;
 }
+
 
 /************ Profile section ***************/
 .profile-container {
@@ -389,4 +392,73 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+
+/************ Media queries **************/
+@media (max-width: 640px) {
+    .wrapper-flex {
+        flex-direction: column;
+    }
+    .tools-container {
+        box-sizing: border-box;
+        width: 325px;
+        height: 170px;
+        padding-left: 0.5em;
+    }
+    .tools-col {
+        box-sizing: border-box;
+        width: 319px;
+        height: 163px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+    .tools-heading {
+        font-size: 12px;
+    }
+    .tools-col-lang, .tools-col-desig, .tools-col-software {
+        box-sizing: border-box;
+        width: 80px;
+        height: 104px;
+    }
+    .tools-col-lang > img {
+        width: 17px;
+        height: 17px;
+    }
+    .tools-col-desig > img {
+        width: 17px;
+        height: 17px;
+    }
+    .tools-col-software > img {
+        width: 17px;
+        height: 17px;
+    }
+    .tools-col-lang, .tools-col-desig, .tools-col-software {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }   
+    .tools-label-lang, .tools-label-des, .tools-label-soft {
+        font-size: 5px;
+        width: 30px;
+        height: 11px;
+        position: absolute;
+    }
+    .tools-label-lang {
+        right: 255px;
+        top: 40px;
+    }
+
+    .tools-label-des {
+        right: 145px;
+        top: 40px;
+    }
+
+    .tools-label-soft {
+        right: 35px;
+        top: 40px;
+    }
+}
+
 
