@@ -400,11 +400,42 @@ a {
         flex-direction: column;
     }
 
-     .experience-container, .education-container, .contact-wrapper, .tools-container, .projects-container, .skills-container {
+     .experience-container, .education-container, .contact-wrapper, .tools-container, .projects-container, .skills-container, .proficiency-container {
         box-sizing: border-box;
         border-radius: 12px;
         width: 325px;
         font-size: 8px;
+    }
+    .proficiency-container {
+        box-sizing: border-box;
+        height: 177px;
+    }
+    .prof-left {
+        box-sizing: border-box;
+        width: 59px;
+        height: 70px;
+    }
+    .prof-right {
+        box-sizing: border-box;
+        width: 155px;
+        height: 74px;
+    }
+    .prof-j {
+        width: 131px;
+        height: 11px;
+    }
+    .prof-r {
+        width: 96px;
+        height: 11px;
+    } 
+    .prof-n {
+        width: 47px;
+        height: 11px;
+    }
+    
+    .prof-h {
+        width: 47px;
+        height: 11px;
     }
 
     .skills-container {
@@ -455,7 +486,7 @@ a {
         justify-content: flex-start;
         gap: 30px;
     }
-    .tools-heading, .education-heading, .experience-heading, .contact-heading, .projects-heading, .skills-heading {
+    .tools-heading, .education-heading, .experience-heading, .contact-heading, .projects-heading, .skills-heading, .proficiency-heading {
         font-size: 14px;
     }
     .tools-col-lang, .tools-col-desig, .tools-col-software {
@@ -519,7 +550,7 @@ a {
         width: 300px;
         height: 122px;
     }
-    .experience-subheading, .contact-details, .education-subheading, .projects-subheading, .projects-year, .skills-details {
+    .experience-subheading, .contact-details, .education-subheading, .projects-subheading, .projects-year, .skills-details, .profiency-subheading, .prof-details {
         font-size: 10px;
     }
     .experience-info, .experience-details, .most-recent {
