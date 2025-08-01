@@ -400,12 +400,33 @@ a {
         flex-direction: column;
     }
 
-     .experience-container, .education-container, .contact-wrapper, .tools-container {
+     .experience-container, .education-container, .contact-wrapper, .tools-container, .projects-container {
         box-sizing: border-box;
         border-radius: 12px;
         width: 325px;
         font-size: 8px;
     }
+    .projects-container {
+        box-sizing: border-box;
+        height: 630px;
+    }
+    .projects-col-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        justify-items: center;
+
+    }
+    .projects-col {
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 140px;
+        height: 267px;
+
+    }
+
+
     .education-container {
         box-sizing: border-box;
         height: 530px;
@@ -428,13 +449,14 @@ a {
         justify-content: flex-start;
         gap: 30px;
     }
-    .tools-heading, .education-heading, .experience-heading, .contact-heading {
+    .tools-heading, .education-heading, .experience-heading, .contact-heading, .projects-heading {
         font-size: 14px;
     }
     .tools-col-lang, .tools-col-desig, .tools-col-software {
         box-sizing: border-box;
         width: 80px;
         height: 104px;
+        justify-self: center;
     }
     .tools-col-lang > img {
         width: 17px;
@@ -461,17 +483,17 @@ a {
         position: absolute;
     }
     .tools-label-lang {
-        right: 255px;
+        right: 260px;
         top: 40px;
     }
 
     .tools-label-des {
-        right: 145px;
+        right: 150px;
         top: 40px;
     }
 
     .tools-label-soft {
-        right: 35px;
+        right: 40px;
         top: 40px;
     }
 
@@ -487,11 +509,11 @@ a {
     .experience-row, .education-row {
         box-sizing: border-box;
         border-radius: 10px;
-        padding: 1em;;
+        padding: 1em;
         width: 300px;
         height: 122px;
     }
-    .experience-subheading, .contact-details, .education-subheading {
+    .experience-subheading, .contact-details, .education-subheading, .projects-subheading, .projects-year {
         font-size: 10px;
     }
     .experience-info, .experience-details, .most-recent {
@@ -507,9 +529,11 @@ a {
     }
     .most-recent {
         box-sizing: border-box;
+        padding: 0.5em 0.8em;
         width: 100px;
         height: 16px;
-        border-radius: 59px;  
+        border-radius: 59px; 
+        font-size: 6px; 
     }
 
     .contact-wrapper {
