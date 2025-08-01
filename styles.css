@@ -308,11 +308,13 @@ header {
 }
 
 .most-recent {
-    border-radius: 142px;
-    width: 123px;
-    height: 32px;
     text-align: center;
     font-size: 14px;
+    border-radius: 142px;
+    padding-top: 0.5em;
+    margin-top: 5px;
+    width: 123px;
+    height: 32px;
 }
 
 /*Footer*/
