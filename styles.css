@@ -400,12 +400,30 @@ a {
         flex-direction: column;
     }
 
-     .experience-container, .education-container, .contact-wrapper, .tools-container, .projects-container {
+     .experience-container, .education-container, .contact-wrapper, .tools-container, .projects-container, .skills-container {
         box-sizing: border-box;
         border-radius: 12px;
         width: 325px;
         font-size: 8px;
     }
+
+    .skills-container {
+        box-sizing: border-box;
+        height: 230px;
+    }
+    .skills-info {
+        width: 300px;
+        height: 116px; 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .skills-details {
+        width: 55px;
+        height: 23px;
+        font-size: 1px;
+    }
+
     .projects-container {
         box-sizing: border-box;
         height: 630px;
@@ -423,9 +441,7 @@ a {
         border-radius: 10px;
         width: 140px;
         height: 267px;
-
     }
-
 
     .education-container {
         box-sizing: border-box;
@@ -449,7 +465,7 @@ a {
         justify-content: flex-start;
         gap: 30px;
     }
-    .tools-heading, .education-heading, .experience-heading, .contact-heading, .projects-heading {
+    .tools-heading, .education-heading, .experience-heading, .contact-heading, .projects-heading, .skills-heading {
         font-size: 14px;
     }
     .tools-col-lang, .tools-col-desig, .tools-col-software {
@@ -513,7 +529,7 @@ a {
         width: 300px;
         height: 122px;
     }
-    .experience-subheading, .contact-details, .education-subheading, .projects-subheading, .projects-year {
+    .experience-subheading, .contact-details, .education-subheading, .projects-subheading, .projects-year, .skills-details {
         font-size: 10px;
     }
     .experience-info, .experience-details, .most-recent {
