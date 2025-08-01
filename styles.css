@@ -409,21 +409,12 @@ a {
 
     .skills-container {
         box-sizing: border-box;
-        height: 230px;
+        height: 245px;
     }
     .skills-info {
-        width: 300px;
-        height: 116px; 
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        width: 300px;  
     }
-    .skills-details {
-        width: 55px;
-        height: 23px;
-        font-size: 1px;
-    }
-
+   
     .projects-container {
         box-sizing: border-box;
         height: 630px;
@@ -434,7 +425,6 @@ a {
         grid-template-rows: repeat(2, 1fr);
         gap: 10px;
         justify-items: center;
-
     }
     .projects-col {
         box-sizing: border-box;
